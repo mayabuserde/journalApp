@@ -84,6 +84,8 @@ body {
     
 }
 
+
+
 .main_form {
     width: 100%;
     display: flex;
@@ -179,7 +181,21 @@ textarea {
 
 }
 /* -------------------view.html------------------- */
-
+.main_view {
+    background-color: rgb(207, 245, 232);
+        border-radius: 40px;
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+       align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.22);
+        width: 50%;
+        
+    
+}
 .content {
     background-color: white;
     width: 90%;
