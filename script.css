@@ -48,6 +48,7 @@ table {
 }
 
 /* End of CSS Reset */
+
 /* Show black border for all elements */
 
 /* body * {
@@ -63,7 +64,7 @@ body {
     display: flex;
     justify-content: center;
     height: 90vh;
-    align-items: center;
+    align-items: flex-start;
     box-sizing: border-box;
     
 }
@@ -183,16 +184,16 @@ textarea {
 /* -------------------view.html------------------- */
 .main_view {
     background-color: rgb(207, 245, 232);
-        border-radius: 40px;
+        
         display: flex;
         flex-direction: column;
        justify-content: center;
        align-items: center;
-        margin-top: 20px;
+        /* margin-top: 20px;
         margin-bottom: 20px;
         box-sizing: border-box;
-        box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.22);
-        width: 50%;
+        box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.22); */
+        width: 100%;
         
     
 }
@@ -229,7 +230,7 @@ article > header {
 }
 
 .date {
-    width: 10%;
+    width: 20%;
     border: 1px solid rgb(46, 88, 74);
     border-radius: 5px;
     
@@ -246,7 +247,7 @@ article > header {
 .titled {
     width: 80%;
     align-self: center;
-    font-size: 30px;
+    font-size: 24px;
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -270,6 +271,19 @@ article > header {
         width: 70%;
         height: 90%;
     }
+    .main_view {
+        background-color: rgb(207, 245, 232);
+        border-radius: 40px;
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+       align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.22);
+        width: 70%;
+    }
     
 }
 
@@ -286,6 +300,10 @@ article > header {
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+   body {
+    align-items: center;
+   }
+   
     .main {
         background-color: rgb(207, 245, 232);
         border-radius: 40px;
@@ -300,5 +318,30 @@ article > header {
         width: 50%;
         height: 90%;
         
+    }
+
+    .main_view {
+        background-color: rgb(207, 245, 232);
+        border-radius: 40px;
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+       align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.22);
+        width: 50%;
+        
+        
+    }
+    .date {
+        width: 10%;
+        
+        
+    }
+    .titled {
+        
+        font-size: 24px;
     }
  }   
