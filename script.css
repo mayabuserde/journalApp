@@ -205,12 +205,17 @@ textarea {
     box-sizing: border-box;
 }
 
+.container {
+    width: 100%;
+}
+
 article {
     display: flex;
     flex-direction: column;
    justify-content: center;
    align-items: center;
    margin-bottom: 5px;
+   width: 100%;
 
 }
 
